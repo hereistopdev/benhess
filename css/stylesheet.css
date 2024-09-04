@@ -44,7 +44,16 @@ html {
 
 body {
   background: #dddddd;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.myavatar {
+  width: 400px;
+  height: 400px;
+  background-image: url(../images/mine.png);
+  background-size: cover;
+  box-shadow: 0px 0px 30px 10px rgb(255 255 255 / 32%) !important;
+  border: 5px solid #434751;
 }
 
 /*-------- Preloader --------*/
@@ -214,7 +223,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 /* =================================== */
@@ -874,7 +883,7 @@ hr {
 
 .primary-menu.navbar-line-under-text ul.navbar-nav > li > a:not(.btn):after {
   position: absolute;
-  content: '';
+  content: "";
   height: 2px;
   width: 0;
   left: 50%;
@@ -1829,8 +1838,8 @@ hr {
 .page-header .breadcrumb > li + li:before {
   color: inherit;
   opacity: 0.7;
-  font-family: 'Font Awesome 5 Free';
-  content: '\f105';
+  font-family: "Font Awesome 5 Free";
+  content: "\f105";
   padding: 0 7px 0 5px;
   font-weight: 900;
 }
@@ -2267,7 +2276,7 @@ hr {
 
 .accordion .accordion-header .accordion-button:after {
   position: absolute;
-  content: ' ';
+  content: " ";
   left: 20px;
   top: calc(50% + 2px);
   width: 9px;
@@ -2425,7 +2434,7 @@ hr {
 .nav.nav-separator .nav-item + .nav-item .nav-link:after {
   height: 14px;
   width: 1px;
-  content: ' ';
+  content: " ";
   background-color: rgba(0, 0, 0, 0.2);
   display: block;
   position: absolute;
@@ -2465,7 +2474,7 @@ hr {
 .nav-tabs .nav-item .nav-link.active:after {
   height: 3px;
   width: 100%;
-  content: ' ';
+  content: " ";
   background-color: #f5df4e;
   display: block;
   position: absolute;
@@ -2742,7 +2751,7 @@ hr {
   color: #fff;
 }
 
-.owl-theme.owl-light .owl-nav [class*='owl-']:hover:not(.disabled) {
+.owl-theme.owl-light .owl-nav [class*="owl-"]:hover:not(.disabled) {
   background-color: rgba(250, 250, 250, 0.5);
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -2772,7 +2781,7 @@ hr {
 
 .brands-grid.separator-border > .row > *:after,
 .brands-grid.separator-border > .row > *:before {
-  content: '';
+  content: "";
   position: absolute;
 }
 
@@ -2877,7 +2886,7 @@ hr {
 }
 
 .list-style-1 > li:after {
-  content: ' ';
+  content: " ";
   position: absolute;
   top: 12px;
   left: -15px;
